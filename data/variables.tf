@@ -50,3 +50,19 @@ variable "aad_pod_release_namespace" {
   type        = string
   description = "The namespace to install the Helm release into"
 }
+
+variable "datadog_chart_version" {
+  type        = string
+}
+
+variable "datadog_release_namespace" {
+  type        = string
+}
+
+variable "datadog_site" {
+  type        = string
+}
+
+variable "datadog_apiKey" {
+  type        = string
+}

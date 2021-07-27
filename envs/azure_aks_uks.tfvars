@@ -8,7 +8,7 @@ network_plugin                  = "azure"
 api_server_authorized_ip_ranges = ["90.208.117.182/32"]
 enable_private_cluster          = false
 
-vm_size             = "Standard_D1_v2"
+vm_size             = "Standard_D2_v2"
 
 # node_pools = [
 # {
